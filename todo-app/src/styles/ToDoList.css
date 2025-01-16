@@ -1,0 +1,72 @@
+/* TaskList.css */
+
+.task-list {
+   padding: 20px;
+   font-family: Arial, sans-serif;
+ }
+ 
+ .task-list h1 {
+   margin-bottom: 20px;
+ }
+ 
+ .new-task-button {
+   padding: 10px 15px;
+   background-color: #f4d03f;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   margin-bottom: 10px;
+ }
+ 
+ .new-task-button:hover {
+   background-color: #f1c40f;
+ }
+ 
+ table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 10px;
+ }
+ 
+ table th,
+ table td {
+   border: 1px solid #ddd;
+   padding: 8px;
+   text-align: left;
+ }
+ 
+ table th {
+   background-color: #f4f4f4;
+ }
+ 
+ table tr:nth-child(even) {
+   background-color: #f9f9f9;
+ }
+ 
+ table tr:hover {
+   background-color: #f1f1f1;
+ }
+ 
+ button {
+   padding: 5px 10px;
+   margin-right: 5px;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+ }
+ 
+ button:hover {
+   opacity: 0.9;
+ }
+ 
+ button:nth-child(1) {
+   background-color: #3498db;
+   color: white;
+ }
+ 
+ button:nth-child(2) {
+   background-color: #e74c3c;
+   color: white;
+ }
+ 

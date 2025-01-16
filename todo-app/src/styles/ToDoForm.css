@@ -1,0 +1,72 @@
+/* TaskForm.css */
+
+.task-form {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background: white;
+   padding: 20px;
+   border: 1px solid #ddd;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   width: 400px;
+   z-index: 1000;
+ }
+ 
+ .task-form form {
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ .task-form label {
+   margin-bottom: 10px;
+   font-weight: bold;
+ }
+ 
+ .task-form input,
+ .task-form select,
+ .task-form textarea {
+   width: 100%;
+   padding: 8px;
+   margin-bottom: 15px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+ }
+ 
+ textarea {
+   resize: none;
+   height: 80px;
+ }
+ 
+ .form-actions {
+   display: flex;
+   justify-content: flex-end;
+ }
+ 
+ .form-actions button {
+   padding: 8px 15px;
+   margin-left: 10px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+ 
+ .form-actions button[type="button"] {
+   background-color: #f4d03f;
+   color: white;
+ }
+ 
+ .form-actions button[type="button"]:hover {
+   background-color: #f1c40f;
+ }
+ 
+ .form-actions button[type="submit"] {
+   background-color: #3498db;
+   color: white;
+ }
+ 
+ .form-actions button[type="submit"]:hover {
+   background-color: #2980b9;
+ }
+ 
